@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-and-copy": "ng build && xcopy dist/alves-ferreira-advocacia/browser /home/luiz/Documentos/vsCode/site-alves-ferreira-advocacia /E /I /Y"
   },
   "prettier": {
     "printWidth": 100,
