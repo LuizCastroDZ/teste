@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-and-copy": "ng build && rm /home/luiz/Documentos/vsCode/site-alves-ferreira-advocacia && cp -r dist/alves-ferreira-advocacia/browser/* /home/luiz/Documentos/vsCode/site-alves-ferreira-advocacia"
+    "build-and-copy": "ng build && find /home/luiz/Documentos/vsCode/site-alves-ferreira-advocacia -type f ! -name '.git' -delete && cp -r dist/alves-ferreira-advocacia/browser/* /home/luiz/Documentos/vsCode/site-alves-ferreira-advocacia"
   },
   "prettier": {
     "printWidth": 100,
