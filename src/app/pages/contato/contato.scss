@@ -1,0 +1,45 @@
+$color-text: #f0f0f0;
+$color-text2: #4d0011;;
+$color-background-component: #4d0011;
+$color-background-main: #ffffff;
+
+.contatos {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+
+    justify-content: center;
+
+    color: $color-text2;
+
+
+    .localizacao {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        .maps {
+            border: 10;
+            border-radius: 15px;
+        }
+    }
+
+    .redes {
+        width: 50%;
+        padding-left: 55px;
+    }
+
+    ul {
+        list-style: none;
+        text-transform: uppercase;
+
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,37 @@
+$color-text: #f0f0f0;
+$color-text2: #4d0011;;
+$color-background-component: #4d0011;
+$color-background-main: #ffffff;
+
+h1 {
+    padding: 20px;
+    color: $color-text2;
+}
+
+.servico1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding: 40px;
+
+    &-titulo {
+        padding-bottom: 20px;
+
+        color: $color-text2;
+    }
+
+    &-cards {
+        display: flex;
+        gap: 50px;
+
+        text-align: justify;
+
+        color: $color-text2;
+        
+        h4 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+}

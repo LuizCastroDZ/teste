@@ -1,0 +1,84 @@
+$color-text: #f0f0f0;
+$color-text2: #4d0011;
+$color-background-component: #4d0011;
+$color-background-main: #ffffff;
+
+.equipe {
+    padding: 20px;
+
+    .titulo {
+        color: $color-text2;
+    }
+
+    h2 {
+        padding: 20px 0;
+
+        border-bottom: 5px $color-background-component solid;
+
+        width: 60%;
+    }
+
+    .fundadores-socios {
+        display: flex;
+
+        gap: 50px;
+
+        justify-content: center;
+    }
+
+    .card-equipe {
+        margin: 20px 0;
+
+        display: flex;
+        flex-direction: column;
+
+        border: 5px $color-background-component solid;
+        border-radius: 15px;
+
+        height: 600px;
+        width: 500px;
+
+        .card-titulo {
+            display: flex;
+
+            padding: 20px;
+            width: 100%;
+
+            text-align: center;
+            justify-content: center;
+
+            background-color: $color-background-component;
+            color: $color-text;
+        }
+
+        .card-img {
+            display: flex;
+
+            width: 300px;
+            height: 400px;
+
+            border: 5px $color-background-component solid;
+            border-radius: 20%;
+
+            justify-content: center;
+            align-items: center;
+
+            margin: 20px auto;
+        }
+
+        .card-info {
+            display: flex;
+            flex-direction: column;
+
+            text-align: justify;
+
+            padding: 20px;
+
+            color: $color-text2;
+
+            text-transform: uppercase;
+
+            gap: 15px;
+        }
+    }
+}

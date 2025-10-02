@@ -1,0 +1,24 @@
+$color-text: #f0f0f0;
+$color-text2: #4d0011;
+$color-background-component: #4d0011;
+$color-background-main: #ffffff;
+
+.sobre {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    color: $color-text2;
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        padding: 0 30%;
+        text-align: justify;
+    }
+}

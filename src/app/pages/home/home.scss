@@ -1,0 +1,62 @@
+$color-text: #f0f0f0;
+$color-text2: #4d0011;;
+$color-background-component: #4d0011;
+$color-background-main: #ffffff;
+
+h3 {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+
+    color: $color-text2;
+}
+
+.textos1 .textos2 .textos3 {
+    color: $color-text2;
+}
+
+.textos1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    text-align: justify;
+
+
+    p {
+        padding: 40px;
+        gap: 50px;
+
+        color: $color-text2;
+    }
+}
+
+.textos2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    text-align: justify;
+
+    p {
+        padding: 40px;
+        gap: 50px;
+
+        color: $color-text2;
+    }
+}
+
+.textos3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    text-align: justify;
+
+    p {
+        padding: 40px;
+        gap: 50px;
+
+        color: $color-text2;
+    }
+}

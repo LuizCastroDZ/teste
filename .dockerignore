@@ -1,0 +1,7 @@
+# arquivos ignorados
+
+/dist
+/node_modules
+.vscode/
+.angular/cache
+.git
