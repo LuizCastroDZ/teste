@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --base-href /teste-site/",
-    "postbuild:prod": "find ../teste-site/ -mindepth 1 ! -name '.git' -delete && cp -r dist/alves-ferreira-advocacia/browser/* ../teste-site"
+    "postbuild:prod": "find ../site-alves-ferreira-advocacia/ -mindepth 1 ! -name '.git' -delete && cp -r dist/alves-ferreira-advocacia/browser/* ../teste-site"
   },
   "prettier": {
     "printWidth": 100,
